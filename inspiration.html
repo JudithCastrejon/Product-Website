@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nail Inspiration</title>
+    <link rel="stylesheet" href="Design.css" />
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script src="CastrejonProject.js"></script>
+
+
+
+</head>
+<body>
+
+<main>
+
+    <!--Top Navigation bar-->
+    <div class = "navigation" id="topNav">
+        <a href="Index.html" >Home</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="appointment.html">Book an appointment</a>
+        <a href="Q&A.html">Q&A</a>
+        <a href="inspiration.html">Nail Inspiration</a>
+
+    </div>
+
+    <!--adding white space-->
+    &nbsp;&nbsp;
+
+    <h3> If you can't find seem to find inspiration for your next mani, you've come to the right place! </h3>
+    
+
+    <!-- Form that lets the user submit an image -->
+    <h4>Submit your inspiration here!</h4>
+    <form>
+
+        <!-- adding label for the submission of an image-->
+        <label>
+            <input type="image"  name="inputImage" required>
+
+        </label>
+        <input type = "submit" value="Submit">
+
+    </form>
+
+    <!--adding a Carousel/slideshow for images-->
+    <div class = "slideshow-container"></div>
+
+    <!--Full-width images with numbers and captions-->
+    <div class="Slides fade"></div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number (e.g. 2/5)-->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="nailFlower.jpeg"style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="nails2.jpeg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="halloweenNails.jpeg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="Mistletoe.jpeg" style="width:100%">
+
+            </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="Fall Nails.jpeg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="Happy Nails.png" style="width:100%">
+
+        </div>
+
+                <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="next" onclick="plusSlides(2)">&#10095;</a>
+        <a class="next" onclick="plusSlides(3)">&#10095;</a>
+        <a class="next" onclick="plusSlides(4)">&#10095;</a>
+        <a class="next" onclick="plusSlides(5)">&#10095;</a>
+        <a class="next" onclick="plusSlides(6)">&#10095;</a>
+    </div>
+
+</main>
+
+<footer>
+    Copyright  &copy; Nails Divine. All Rights Reserved 2021 HTML
+</footer>
+
+
+
+</body>
+</html>

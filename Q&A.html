@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question & Answer</title>
+    <link rel="stylesheet" href="Design.css" />
+
+</head>
+<body>
+<main>
+    <!--Top Navigation bar-->
+    <div class = "navigation" id="topNav">
+        <a href="Index.html" >Home</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="appointment.html">Book an appointment</a>
+        <a href="Q&A.html">Q&A</a>
+        <a href="inspiration.html">Nail Inspiration</a>
+
+    </div>
+
+    <!--adding white space-->
+    &nbsp;&nbsp;
+
+    <!-- header and sign in button for user-->
+    <h4>If you have a question don't hesitate to post.</h4>
+
+    <!-- form for the user to login -->
+    <h5>Login or sign up</h5>
+    <form autocomplete="off" method="post" >
+        <p>Username:</p>
+        <input class = "inputbox" placeholder="Username or Email" type="text" name="Username or email" />
+        <p>Password:</p>
+        <input class="inputbox" placeholder="Password" type="password" name="Password" />
+        <br><br>
+        <input id="submitbutton"  type="submit" name="submit" value="Login" />
+    </form>
+
+
+    <!--Question submission form -->
+    <form>
+        <label for="Question" >Question:</label>
+        <input type="text" id="Question" name="question" placeholder="Ask a question!">
+       <input type="submit" value="Submit">
+    </form>
+
+
+    <!--image  -->
+    <img src="Q&A.png" alt="Question and Answer" id="Q&A">
+
+<!-- example of FAQ-->
+    <h3> FAQs </h3>
+    <p class="accordion">Q1. If I want to cancel an appointment how can I do that?</p>
+    <div class = "panel">A. You can text me or cancel the appointment through the website.</div>
+
+    <p class ="accordion">Q2. I got my acrylic nails done,and I want to remove them without damaging my nail can you do that?</p>
+    <div class = "panel">A. Yes!, I do offer soak off services, where I soak the nails in acetone and then remove the acrylic. If you are interested please make an appointment! </div>
+
+    <p class ="accordion">Q3. I got my acrylic nails done,and I want to remove them without damaging my nail can you do that?</p>
+    <div class = "panel">A. Yes!, I do offer soak off services, where I soak the nails in acetone and then remove the acrylic. If you are interested please make an appointment! </div>
+
+    <p class ="accordion">Q4. If one of my acrylic nails broke off, do you have an extra fee for fixing it?  </p>
+    <div class = "panel">A. I do not change extra for fixing a broken off nail, Just make an appointment and we can get you a new set! </div>
+
+
+</main>
+
+<footer>
+    Copyright  &copy; Nails Divine. All Rights Reserved 2021 HTML
+</footer>
+
+
+</body>
+</html>

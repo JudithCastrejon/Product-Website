@@ -1,0 +1,32 @@
+   My website nails divine meets the specification of user interactivity due to the jQuery-UI
+and plugins that are implemented throughout the web pages.
+
+- jQuery-UI and plugins
+    - accordion is used two times
+         The accordion is used in the 'book and appointment' webpage to allow the users to view
+         the policies that Sandra requires before booking an appointment. The accordion is
+         automatically opened and the users can then click on the other panel to get it open.
+         The second accordion is used in the Q&A webpage, at the bottom there are a series of
+         questions, and the answers are displayed when the user clicks on them.
+    - image carousel
+        The image carousel is used in the nail inspiration webpage, the carousel automatically
+        changes. The use of the carousel is to allow the user to view potential nail designs that
+        Sandra could do. The users can also use the images as inspiration for what they would like
+        their nails to look like when they have an appointment.
+    - fade-in-fade-out of the login form
+        The fade in and out of the login form is implemented in the home and Q&A webpages,
+        this special feature allows the user's attention to be brought to the login form. This is
+        used to make sure that the user is aware they can log in or sign up to the webpage and keep
+        up with all of Sandra's work.
+
+
+    The feedback that I received was centered around my images, they were too big and were in an
+awkward position. I changed my images from being centered and in their original width and height,
+to being centered to the left and shrieked down to a reasonable size that does not bother the user
+while they are trying to navigate the website.
+
+    I believe that my website will meet the needs of my client Sandra because she wanted a website
+that allowed her clients to view her policies and get to know her better, this website also allows
+her clients to book an appointment. Overall I believe that Sandra will be happy with the website
+because it is interactive with the users and it allows Sandra to have all her information in one
+place.
